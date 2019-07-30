@@ -1,0 +1,57 @@
+body {
+    font-family: "Red Hat Display",sans-serif;
+    line-height: 26pt;
+}
+span {
+    font-family: "Shadows Into Light",cursive;
+}
+
+.taskbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.list {
+    float: left;
+}
+.list .link {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+div.polaroid {
+    width: 50%;
+    background-color: white;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+    margin-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+img {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    widows: 50%;
+    margin-top: 25px;
+    padding: 25px;
+    opacity: 0.7;
+}
+
+div#mainpart {
+    text-align: center;
+}
+ul, ol {
+    list-style-position: inside;
+}
