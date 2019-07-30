@@ -23,6 +23,9 @@ span {
     text-decoration: none;
     padding: 14px 16px;
 }
+.list .link:hover{
+    background-color: #111;
+}
 
 div.polaroid {
     width: 50%;
